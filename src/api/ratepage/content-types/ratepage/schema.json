@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "ratespage",
+  "info": {
+    "singularName": "ratepage",
+    "pluralName": "ratespage",
+    "displayName": "Rates",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "RatesHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.hero-banner"
+    },
+    "FeaturedRatesTitle": {
+      "type": "string"
+    },
+    "RatesCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.rates-cta"
+    },
+    "QA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layouts.question-answer-accordion"
+    },
+    "QATitle": {
+      "type": "string"
+    }
+  }
+}

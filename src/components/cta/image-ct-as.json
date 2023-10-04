@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_cta_image_ct_as",
+  "info": {
+    "displayName": "Image CTAs",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    }
+  }
+}

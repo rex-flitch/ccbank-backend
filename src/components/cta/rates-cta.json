@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_cta_rates_ctas",
+  "info": {
+    "displayName": "Rates CTA",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SuperTitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "ButtonURL": {
+      "type": "string"
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "type_of_rate": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::type-of-rate.type-of-rate"
+    },
+    "GreenAreaText": {
+      "type": "string"
+    },
+    "BelowRateText": {
+      "type": "string"
+    },
+    "BottomAreaText": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

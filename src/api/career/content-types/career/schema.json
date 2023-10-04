@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Careers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CareersHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.hero-banner"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "WelcomeParagraph": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "CommittedToOur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.image-ct-as"
+    },
+    "CommittedToYou": {
+      "type": "string"
+    },
+    "CommittedToYouText": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "EmploymentOpportunitesButtonText": {
+      "type": "string"
+    },
+    "EmploymentOpportunitesButtonURL": {
+      "type": "string"
+    }
+  }
+}

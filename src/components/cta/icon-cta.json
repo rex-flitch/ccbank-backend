@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_cta_icon_ctas",
+  "info": {
+    "displayName": "Icon CTA",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    }
+  }
+}

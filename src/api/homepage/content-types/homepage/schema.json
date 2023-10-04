@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "HomepageCTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.image-ct-as"
+    },
+    "HomepageHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.hero-banner"
+    },
+    "AlternatingImageColorCTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.alternating-image-color-cta"
+    },
+    "Quote": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "HomepageIconCTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.icon-cta"
+    },
+    "HomepageVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layouts.video-and-text"
+    },
+    "NewsBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Locations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layouts.locations-map"
+    },
+    "HomepageRates": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.rates-cta"
+    }
+  }
+}

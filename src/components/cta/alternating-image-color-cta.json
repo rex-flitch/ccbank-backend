@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_cta_alternating_image_color_ctas",
+  "info": {
+    "displayName": "Alternating Image/Color CTA",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "ImagePlacement": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ],
+      "default": "Left",
+      "required": true
+    },
+    "ImageBackgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "Green",
+        "Orange"
+      ],
+      "default": "Green",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    }
+  }
+}

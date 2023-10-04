@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cc_banks_news",
+  "info": {
+    "singularName": "cc-bank-news",
+    "pluralName": "cc-banks-news",
+    "displayName": "CC Bank News"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Story": {
+      "type": "richtext",
+      "required": true
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

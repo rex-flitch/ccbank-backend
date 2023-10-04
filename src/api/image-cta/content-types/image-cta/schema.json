@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_ctas",
+  "info": {
+    "singularName": "image-cta",
+    "pluralName": "image-ctas",
+    "displayName": "Image CTA"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    }
+  }
+}

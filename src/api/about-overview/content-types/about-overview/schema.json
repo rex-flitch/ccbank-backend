@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_overviews",
+  "info": {
+    "singularName": "about-overview",
+    "pluralName": "about-overviews",
+    "displayName": "About Overview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "OveriewHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banners.hero-banner"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "OverviewAltCTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.alternating-image-color-cta"
+    },
+    "CommunityGivingTitle": {
+      "type": "string"
+    },
+    "CommunityGivingDescription": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

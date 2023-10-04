@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cc_bank_locations",
+  "info": {
+    "singularName": "cc-bank-location",
+    "pluralName": "cc-bank-locations",
+    "displayName": "CC Bank Location",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "HasATM": {
+      "type": "boolean"
+    },
+    "State": {
+      "type": "string",
+      "required": true
+    },
+    "Zip": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layouts.location-individual-branches-team-members"
+    },
+    "LobbyHours": {
+      "type": "string"
+    },
+    "DriveThroughHours": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Map": {
+      "type": "string"
+    }
+  }
+}

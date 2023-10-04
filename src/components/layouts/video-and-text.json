@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layouts_video_and_texts",
+  "info": {
+    "displayName": "Video and Text",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "Video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demand_deposit_products",
+  "info": {
+    "singularName": "demand-deposit-product",
+    "pluralName": "demand-deposit-products",
+    "displayName": "Demand Deposit Products"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PersonalManagerPlusBelow4999": {
+      "type": "string"
+    },
+    "PersonalManagerPlusAbove4999": {
+      "type": "string"
+    },
+    "MoneyMarketBelow20": {
+      "type": "string"
+    },
+    "MoneyMarket20to50": {
+      "type": "string"
+    },
+    "MoneyMarket50to100": {
+      "type": "string"
+    },
+    "MoneyMarket100to250": {
+      "type": "string"
+    },
+    "MoneyMarketOver250": {
+      "type": "string"
+    },
+    "Now": {
+      "type": "string"
+    },
+    "BusinessManagerPlusBelow10": {
+      "type": "string"
+    },
+    "BusinessManagerPlusOver10": {
+      "type": "string"
+    },
+    "GiveBackChecking": {
+      "type": "string"
+    },
+    "BusinessManagerConnectBelow250": {
+      "type": "string"
+    },
+    "BusinessManagerConnectAbove250": {
+      "type": "string"
+    },
+    "InstitutionalNowBelow100": {
+      "type": "string"
+    },
+    "InstitutionalNow100to250": {
+      "type": "string"
+    },
+    "InstitutionalNowAbove250": {
+      "type": "string"
+    },
+    "StatementSavings": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_layouts_location_individual_branches_team_members",
+  "info": {
+    "displayName": "Location Individual Branches Team Members",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TeamMemberImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "TeamMemberName": {
+      "type": "string"
+    },
+    "TeamMemberPosition": {
+      "type": "string"
+    },
+    "TeamMemberPhone": {
+      "type": "string"
+    },
+    "TeamMemberEmail": {
+      "type": "email"
+    }
+  }
+}

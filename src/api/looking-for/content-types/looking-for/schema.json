@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "looking_fors",
+  "info": {
+    "singularName": "looking-for",
+    "pluralName": "looking-fors",
+    "displayName": "Looking For"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "LookingForList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.looking-for-list"
+    },
+    "ButtonURL": {
+      "type": "string"
+    },
+    "ButtonTitle": {
+      "type": "string"
+    }
+  }
+}

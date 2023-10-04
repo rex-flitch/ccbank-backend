@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rates",
+  "info": {
+    "singularName": "rate",
+    "pluralName": "rates",
+    "displayName": "Rates"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type_of_rates": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::type-of-rate.type-of-rate",
+      "inversedBy": "rates"
+    },
+    "Balances": {
+      "type": "string"
+    },
+    "InterestRate": {
+      "type": "string"
+    },
+    "APY": {
+      "type": "string"
+    }
+  }
+}

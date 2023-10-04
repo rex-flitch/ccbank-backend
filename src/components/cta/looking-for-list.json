@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cta_looking_for_lists",
+  "info": {
+    "displayName": "Looking For List",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "LinkText": {
+      "type": "string",
+      "required": true
+    },
+    "LinkURL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

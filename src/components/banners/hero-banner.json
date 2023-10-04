@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_banners_hero_banners",
+  "info": {
+    "displayName": "Hero Banner",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": false
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ButtonURL": {
+      "type": "string"
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

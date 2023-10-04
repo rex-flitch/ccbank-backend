@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cc_bank_settings",
+  "info": {
+    "singularName": "cc-bank-setting",
+    "pluralName": "cc-bank-settings",
+    "displayName": "CC Bank Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "FacebookURL": {
+      "type": "string"
+    },
+    "InstagramURL": {
+      "type": "string"
+    },
+    "TwitterURL": {
+      "type": "string"
+    },
+    "YouTubeURL": {
+      "type": "string"
+    },
+    "LinkedInURL": {
+      "type": "string"
+    },
+    "FooterLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "RouterNumber": {
+      "type": "string"
+    },
+    "NMLSnumber": {
+      "type": "string"
+    },
+    "AppleAppURL": {
+      "type": "string"
+    },
+    "GoogleAppURL": {
+      "type": "string"
+    }
+  }
+}

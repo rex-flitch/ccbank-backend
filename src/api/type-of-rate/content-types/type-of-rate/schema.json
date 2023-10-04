@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "type_of_rates",
+  "info": {
+    "singularName": "type-of-rate",
+    "pluralName": "type-of-rates",
+    "displayName": "Type of Rates"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "RateType": {
+      "type": "string"
+    },
+    "rates": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::rate.rate",
+      "mappedBy": "type_of_rates"
+    }
+  }
+}

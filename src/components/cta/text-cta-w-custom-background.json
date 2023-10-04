@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_cta_text_cta_w_custom_backgrounds",
+  "info": {
+    "displayName": "Text CTA W/ Custom Background",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

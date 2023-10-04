@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layouts_question_answer_accordions",
+  "info": {
+    "displayName": "Question/Answer Accordion",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
